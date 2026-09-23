@@ -23,7 +23,7 @@ public class HelloController {
      */
     @GetMapping("/api/hello")
     public String hello() {
-        return "Holland, Welcome to CIS-530 Course!";
+        return "Holland, Welcome to CIS-530 Course! Now updated for Assignment 1.3.";
     } // end of hello
 
     /**
@@ -37,6 +37,8 @@ public class HelloController {
         data.put("course", "CIS 530");
         data.put("week", 1);
         data.put("technology", "Spring Boot 4");
+        data.put("university", "Bellevue University");
+        data.put("semester", "Spring 2026");
         return data;
     } // end of info
 
